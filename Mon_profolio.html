@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="news.js" defer>
+    </script>
+    <style>
+        body{
+            font-family:'Times New Roman', Times, serif;
+             margin: 0;
+             padding: 0;
+             background-color: #f4f4f4;
+             color: #130b0bee;
+        }
+        header{
+            background-color:rgba(5, 5, 255, 0.87);
+            text-align: center;
+            padding: 2rem;
+            color: white;
+        }
+        header h1, header p{
+            text-shadow: 2px 2px 2px black;
+        }
+        nav{
+            background-color: rgba(16, 2, 143, 0.89);
+            padding: 1rem;
+            animation: none;
+            text-align: center;
+            
+            
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin:0 1rem;
+        }
+         nav a:hover{
+            text-decoration: underline;
+         }
+         nav a:active{
+            color: brown;
+            text-decoration: none;
+         }
+         section{
+            max-width: 80%;
+            margin: auto;
+            padding: 20px;
+         }
+         h2{
+            color: blue;
+         }
+         #etude_faite, #experience{
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 1rem;
+            border-left: solid blue;
+         }
+         img{
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px black;
+            width: 300px;
+            height: 320px;
+         }
+        
+         footer{
+            background-color: rgba(16, 2, 143, 0.89);
+            text-align: center;
+           padding: 1rem;
+           margin-top: 2rem;
+           color: white;
+         }
+           @media(max-width: 400px){
+            header{
+            background-color:rgba(5, 5, 255, 0.87);
+            text-align: center;
+            padding: 1rem;
+            color: rgb(248, 252, 248);
+           }
+           nav a{
+            font-size: 10px;
+           }
+           
+           img{
+            width: 200px;
+            height: 210px;
+           }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gloire Wa Mikolo Dev</h1>
+        <p>Développeur web design</p>
+    </header>
+    <nav>
+        <a href="#about">Apropos</a>
+        <a href="#etude_faite">Niveau d'étude</a>
+        <a href="#experience">Expérience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>A propos</h2>
+        <p> je suis un développeur web design, passioné de la technologie; j' apprends plusieurs langages comme (Html et Css pour le langage de balisage, JavaScript et Python.)</p>
+    </section>
+    <section id="etude_faite">
+        <h2>Niveau d'étude </h2>
+        <p>2024 2025 : Deuxiéme année de licence en informatique et gestion (Bac2 IG) à l'Isp-uvira.</p>
+        <p>2023 - 2024 : Prémière année de licence en informatique et gestion à l'Isp-uvira.</p>
+        <p>2021 - 2022 : DiplOme d'Etat ( de l'école secondaire) au complexe scolaire Foyer du savoir 2.</p>
+        <p>2016 - 2017 : Certificat de l'école primaire à l'E.P Ruzizi</p>
+    </section>
+    <section id="experience">
+        <h2>Expérience</h2>
+        <p>l'experience professionnelle que j'ai sont : </p>
+        <p>Du 10 au 23 janvier : Stage d'observation à l'institut Mwanga d'Uvira. </p>
+        <p>Du 15 octobre au 15 Novembre 2021 : Stage de professionnalisation a l'Amy asbl</p>
+        <p>Du 2016 a nos jours : je suis chef de section du mouvement xaveri paroisse saint ange gardier de namianda</p>
+    </section>
+    <section>
+        <h2>Competence en informatique</h2>
+        <p>Voici quelque langage de programation que j'utilise</p>
+        <p>HTML <input type="range" min="70" max="100"></p>
+        <p>CSS <input type="range" min="35" max="100"></p>
+        <p>PYTHON <input type="range" min="35" max="100"></p>
+    </section>
+    <section class="mon_image">
+      <!-- <img src="image\mikololombi_akwaba.jpg" alt="">  -->
+       <!-- <img src="/storage/emulated/0/mon_profolio/fichier_html/mikololombi_akwaba.jpg" alt=""> -->
+        <!-- <img src="C:\Users\HP CA\Desktop\mon_profolio\fichier_html\mikololombi_akwaba.jpg" alt=""> -->
+         <img src="../aaaaa.jpg" alt="">
+    </section>
+    <section id="contact">
+         <h2>Contact</h2>
+         <p>Email: mikololombiakxabagloire@gmail.com</p>
+         <p>Facebook: <a href="https://www.facebook.com/mikololombi.gloire.9">Gloire Wa Mikolo</a></p>
+         <p>Tel: +243 971024683</p>
+         <p>Tel +243 836 879 425 Whatsapp number</p>
+    </section>
+    <footer>
+        &copy;2025 Gloire-wa-mikolo - Tous droit reserve
+    </footer>
+</body>
+</html>
